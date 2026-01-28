@@ -9,7 +9,7 @@ st.title("🚀 Langflow Astra API - Crop Advisory System")
 user_input = st.text_input("💬 Enter your crop query:", "Rust on wheat leaves in Pune, what treatment?")
 
 # API endpoint & headers
-url = "https://api.langflow.astra.datastax.com/lf/3e1ee4ba-21f0-4b05-a479-14553904059c/api/v1/run/9c5bad27-1fa5-4e72-846f-1d82606dcb2c"
+url = "https://aws-us-east-2.langflow.datastax.com/lf/7b5b2d03-a9c4-41b6-a151-35c806dcc6dc/api/v1/run/415bf2fa-b76c-4815-90e7-f7f0274391e5"
 
 headers = {
     "Content-Type": "application/json",
@@ -72,3 +72,4 @@ with st.expander("📋 How to use"):
     3. Click "Send to Langflow"
     4. Get instant treatment recommendations
     """)
+
